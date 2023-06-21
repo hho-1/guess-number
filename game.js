@@ -54,7 +54,7 @@ kontrolBtn.addEventListener('click', () => {
         hak--;  
       
         if(hak > 0){
-            tahminNum > randomNum ? (message.innerHTML = `<i class="fa-solid fa-arrow-trend-down fa-2x"></i> Azalt`) : (message.innerHTML = `<i class="fa-solid fa-arrow-trend-up fa-2x" ></i> Artir`);
+            tahminNum > randomNum ? (message.innerHTML = `<i class="fa-solid fa-arrow-trend-down fa-2x"></i> Increase`) : (message.innerHTML = `<i class="fa-solid fa-arrow-trend-up fa-2x" ></i> Decrease`);
         }
         else{
             if(hak === 0){
